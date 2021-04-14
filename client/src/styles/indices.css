@@ -1,0 +1,54 @@
+.card {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+.message-field {
+    display: grid;
+    width: 100%;
+}
+
+.message-field > textarea {
+    justify-self: center;
+}
+  
+.form-validation-button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-validation-button:hover {
+    background-color: teal;
+}
+ 
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.close-button {
+    font-size: 3em;
+    color: rgb(212, 152, 30);
+    position: absolute;
+    top: 20px;
+    right: 10vw;
+    z-index: 10;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.close-button:hover {
+    animation: transform ease-in-out;
+    transform: scale(0.9);
+}
