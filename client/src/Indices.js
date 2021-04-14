@@ -65,7 +65,7 @@ function Indices() {
                 </div>
                 <button className="close-button" onClick={() => closeTyping()}>X</button>
 
-                {/* ONGLETS POUR GESTION DU JEU */}
+                {/* ONGLETS POUR GESTION DU JEU
                 <Tabs> 
                     <div label="Tuto"> 
                         See ya later, <em>Alligator</em>! 
@@ -76,7 +76,7 @@ function Indices() {
                     <div label="Blasons"> 
                         Nothing to see here, this tab is <em>extinct</em>! 
                     </div> 
-                </Tabs> 
+                </Tabs>  */}
             </div>
             :
             <button onClick={closeTyping}>Rentrer texte indice</button>
